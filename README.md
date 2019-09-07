@@ -22,6 +22,8 @@ You can create those two from [the AWS management console](https://console.aws.a
 
 For the IAM role, go to [IAM](https://console.aws.amazon.com/iam/) > Roles > Create role > choose Transfer > Give AmazonS3FullAccess right > No tag > Give it a name > Create a role.
 
+You can do the whole "install" thing by `./install.sh`, it'll put the scripts in `/usr/local/bin` without the `.py` extension.
+
 Let's see how theses scripts work.
 
 ### sftpup
