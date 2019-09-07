@@ -33,7 +33,7 @@ By default, the user is your current connected user, and the key is created in `
 So here's an example:
 
 ~~~bash
-$ sftpup.py -r eu-west-1 -u kharec -a "arn:aws:iam::183593864628:role/awstransfersftp"
+$ sftpup -r eu-west-1 -u kharec -a "arn:aws:iam::183593864628:role/awstransfersftp"
 ~~~
 
 Wait about 5m to get the server online and... Here you go !
@@ -41,14 +41,14 @@ Wait about 5m to get the server online and... Here you go !
 If you wanna see the others options, you can do :
 
 ~~~bash
-$ sftpup.py -h
+$ sftpup -h
 ~~~
 
 ### sftpdown
 To delete the previously created sftp server, you just have to specify the region and the id.
 
 ~~~bash
-$ sftpdown.py -r eu-west-1 -i s-7e38802e91a74c369
+$ sftpdown -r eu-west-1 -i s-7e38802e91a74c369
 Your server s-7e38802e91a74c369 in region eu-west-1 was deleted.
 ~~~
 
