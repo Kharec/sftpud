@@ -82,8 +82,9 @@ sftp.create_user(
 
 print("Job's done. Server's being created by AWS now.")
 print("[...]")
-sleep(300)
-print("OK, connect with : sftp -i", key_path, user+"@"+endpoint, "\n")
+sleep(330)
+print("OK, connect with : \n")
+print("sftp -i", key_path, user+"@"+endpoint, "\n")
 print("You're welcome.")
 
 exit(0)
