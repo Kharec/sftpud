@@ -58,6 +58,6 @@ This script can also delete an AWS SFTP server which wasn't created by it.
 AWS Transfer for SFTP can cost a lot. Find the pricing [here](https://aws.amazon.com/sftp/pricing/).
 
 ## Licence & Copyright
-This software is copyright (c) 2019 by Sandro CAZZANIGA.
+This software is copyright (c) 2020 by Sandro CAZZANIGA.
 
 This is free software, you can use/redistribute it and/or modify it under the GNU GPLv3 terms.
